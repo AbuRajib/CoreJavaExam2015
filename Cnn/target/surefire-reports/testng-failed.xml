@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Cnn Test on web browser]">
+  <parameter name="os" value="windows"/>
+  <parameter name="browserVersion" value="41"/>
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="useSauceLabs" value="false"/>
+  <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16"/>
+  <parameter name="url" value="http://www.cnn.com"/>
+  <parameter name="username" value="rajib0078"/>
+  <test name="Cnn Home Page(failed)">
+    <classes>
+      <class name="Home">
+        <methods>
+          <include name="homepage"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Home -->
+    </classes>
+  </test> <!-- Cnn Home Page(failed) -->
+</suite> <!-- Failed suite [Cnn Test on web browser] -->

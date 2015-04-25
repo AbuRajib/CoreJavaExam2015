@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cnn/Cnn.iml" filepath="$PROJECT_DIR$/Cnn/Cnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functional-Automation.iml" filepath="$PROJECT_DIR$/Functional-Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomApp/RandomApp.iml" filepath="$PROJECT_DIR$/RandomApp/RandomApp.iml" />
+    </modules>
+  </component>
+</project>

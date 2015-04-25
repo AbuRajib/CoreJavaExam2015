@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Test on web browser">
+
+    <parameter name="useSauceLabs" value="false" />
+    <parameter name="username" value="rajib0078" />
+    <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16" />
+    <parameter name="os" value="windows" />
+    <parameter name="browsername" value="chrome" />
+    <parameter name="browserVersion" value="41" />
+    <parameter name="url" value="http://www.amazon.com" />
+
+    <test name="Amazon Home Page">
+        <classes>
+         <!--<class name="com.Amazon.AmazonHome"/>-->
+            <class name="com.Amazon.SignUp"/>
+
+        </classes>
+    </test>
+</suite>
