@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon Test on web browser" duration-ms="19170" started-at="2015-04-24T17:27:30Z" finished-at="2015-04-24T17:27:49Z">
+  <suite name="Amazon Test on web browser" duration-ms="20663" started-at="2015-04-27T06:38:32Z" finished-at="2015-04-27T06:38:53Z">
     <groups>
     </groups>
-    <test name="Amazon Home Page" duration-ms="19170" started-at="2015-04-24T17:27:30Z" finished-at="2015-04-24T17:27:49Z">
+    <test name="Amazon Home Page" duration-ms="20663" started-at="2015-04-27T06:38:32Z" finished-at="2015-04-27T06:38:53Z">
       <class name="com.Amazon.SignUp">
-        <test-method status="PASS" signature="setUp(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amazon.SignUp@19dfb72a]" name="setUp" is-config="true" duration-ms="8719" started-at="2015-04-24T13:27:30Z" finished-at="2015-04-24T13:27:39Z">
+        <test-method status="PASS" signature="setUp(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amazon.SignUp@17f6480]" name="setUp" is-config="true" duration-ms="9239" started-at="2015-04-27T02:38:32Z" finished-at="2015-04-27T02:38:41Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.Amazon.SignUp@19dfb72a]" name="signin" duration-ms="8837" started-at="2015-04-24T13:27:39Z" finished-at="2015-04-24T13:27:48Z">
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.Amazon.SignUp@17f6480]" name="signin" duration-ms="9837" started-at="2015-04-27T02:38:41Z" finished-at="2015-04-27T02:38:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.Amazon.SignUp@19dfb72a]" name="cleanUp" is-config="true" duration-ms="1578" started-at="2015-04-24T13:27:48Z" finished-at="2015-04-24T13:27:49Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.Amazon.SignUp@17f6480]" name="cleanUp" is-config="true" duration-ms="1552" started-at="2015-04-27T02:38:51Z" finished-at="2015-04-27T02:38:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

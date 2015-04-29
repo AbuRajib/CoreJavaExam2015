@@ -40,5 +40,32 @@
 
     </dependencyManagement>
 
+    <profiles>
+        <profile>
+            <id>amazon-app</id>
+            <modules>
+                <module>Common</module>
+                <module>Amazon</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>cnn-app</id>
+            <modules>
+                <module>Common</module>
+                <module>Cnn</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>random-app</id>
+            <modules>
+                <module>Common</module>
+                <module>RandomApp</module>
+            </modules>
+        </profile>
+
+    </profiles>
+
 
 </project>
