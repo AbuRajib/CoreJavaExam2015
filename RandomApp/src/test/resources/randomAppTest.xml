@@ -3,7 +3,7 @@
 
 <suite name="W3Schools Test on web browser">
 
-    <parameter name="useSauceLabs" value="true" />
+    <parameter name="useSauceLabs" value="false" />
     <parameter name="username" value="rajib0078" />
     <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16" />
     <parameter name="os" value="windows" />
