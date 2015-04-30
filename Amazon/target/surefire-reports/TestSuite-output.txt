@@ -1,1 +1,12 @@
-Starting ChromeDriver (v2.9.248315) on port 2412
+http://www.amazon.com/
+Books
+Advanced Search
+New Releases
+Best Sellers
+The New York Times® Best Sellers
+Children's Books
+Textbooks
+Textbook Rentals
+Sell Us Your Books
+Best Books of the Month
+Deals in Books

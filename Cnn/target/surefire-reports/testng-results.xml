@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Cnn Test on web browser" duration-ms="35757" started-at="2015-04-27T06:37:53Z" finished-at="2015-04-27T06:38:29Z">
+  <suite name="Cnn Test on web browser" duration-ms="62886" started-at="2015-04-30T07:41:57Z" finished-at="2015-04-30T07:43:00Z">
     <groups>
     </groups>
-    <test name="Cnn Home Page" duration-ms="35757" started-at="2015-04-27T06:37:53Z" finished-at="2015-04-27T06:38:29Z">
+    <test name="Cnn Home Page" duration-ms="62886" started-at="2015-04-30T07:41:57Z" finished-at="2015-04-30T07:43:00Z">
       <class name="Home">
-        <test-method status="PASS" signature="setUp(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Home@2d6e8792]" name="setUp" is-config="true" duration-ms="18471" started-at="2015-04-27T02:37:53Z" finished-at="2015-04-27T02:38:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Home@17c68925]" name="setUp" is-config="true" duration-ms="33634" started-at="2015-04-30T03:41:57Z" finished-at="2015-04-30T03:42:30Z">
           <params>
             <param index="0">
               <value>
@@ -31,12 +31,12 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[41]]>
+                <![CDATA[37]]>
               </value>
             </param>
             <param index="6">
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepage()[pri:0, instance:Home@2d6e8792]" name="homepage" duration-ms="15668" started-at="2015-04-27T02:38:12Z" finished-at="2015-04-27T02:38:27Z">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:Home@17c68925]" name="homepage" duration-ms="14680" started-at="2015-04-30T03:42:30Z" finished-at="2015-04-30T03:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:Home@2d6e8792]" name="cleanUp" is-config="true" duration-ms="1580" started-at="2015-04-27T02:38:27Z" finished-at="2015-04-27T02:38:29Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:Home@17c68925]" name="cleanUp" is-config="true" duration-ms="14529" started-at="2015-04-30T03:42:45Z" finished-at="2015-04-30T03:43:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

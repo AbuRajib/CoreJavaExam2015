@@ -7,8 +7,8 @@
     <parameter name="username" value="rajib0078" />
     <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16" />
     <parameter name="os" value="windows" />
-    <parameter name="browsername" value="chrome" />
-    <parameter name="browserVersion" value="41" />
+    <parameter name="browsername" value="firefox" />
+    <parameter name="browserVersion" value="37" />
     <parameter name="url" value="http://www.cnn.com" />
 
     <test name="Cnn Home Page">
