@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -72,7 +73,7 @@ public class Base {
         }
         driver.navigate().to(url);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-       // driver.manage().window().maximize();
+       driver.manage().window().maximize();
     }
 
 
@@ -102,6 +103,7 @@ public class Base {
         driver.findElement(By.xpath(locator)).sendKeys(value,Keys.ENTER);
     }
     public void typeAndEnterBycss(String locator,String value){
+        driver.findElement(By.cssSelector(locator)).clear();
         driver.findElement(By.cssSelector(locator)).sendKeys(value,Keys.ENTER);
     }
 
@@ -141,7 +143,11 @@ public class Base {
         Thread.sleep(sec*1000);
     }
 
-
+    public void selectElementByVisibleText(String locator,String value){
+        WebElement element=driver.findElement(By.cssSelector(locator));
+        Select select=new Select(element);
+        select.selectByVisibleText(value);
+    }
 
 
 }

@@ -1,36 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 180.195 sec <<< FAILURE! - in TestSuite
-amazonOfhomepage(com.Amazon.AmazonHome)  Time elapsed: 130.616 sec  <<< FAILURE!
-org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 20.25 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Computer', ip: '10.255.29.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f9169b1d-157d-4ea9-b846-aa8b43d40cf5
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at BaseApi.Base.clickBytext(Base.java:137)
-	at com.Amazon.AmazonHome.amazonOfhomepage(AmazonHome.java:25)
-Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Computer', ip: '10.255.29.196', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
-Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)
-	at <anonymous class>.Utils.getElementAt(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
-	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9585)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.491 sec <<< FAILURE! - in TestSuite
+signIn(com.Amazon.SignUp)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.io.FileNotFoundException: Amazon\data\file1.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at utility.DataReader.fileReader(DataReader.java:22)
+	at com.Amazon.SignUp.signIn(SignUp.java:19)
 

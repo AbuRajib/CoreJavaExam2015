@@ -13,9 +13,9 @@
 
     <test name="Amazon Home Page">
         <classes>
-         <class name="com.Amazon.AmazonHome"/>
-            <!--<class name="com.Amazon.SignUp"/>-->
-
+         <!--<class name="com.Amazon.AmazonHome"/>-->
+            <class name="com.Amazon.SignUp"/>
+        <!--<class name="com.Amazon.Search"/>-->
         </classes>
     </test>
 </suite>

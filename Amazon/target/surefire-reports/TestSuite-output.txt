@@ -1,12 +1,2 @@
-http://www.amazon.com/
-Books
-Advanced Search
-New Releases
-Best Sellers
-The New York Times® Best Sellers
-Children's Books
-Textbooks
-Textbook Rentals
-Sell Us Your Books
-Best Books of the Month
-Deals in Books
+May 04, 2015 3:02:26 AM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@d554c5f

@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Amazon_Test_on_web_browser">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_on_web_browser" title="com.Amazon.AmazonHome" hash-for-method="amazonOfhomepage">amazonOfhomepage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_on_web_browser" title="com.Amazon.SignUp" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Amazon_Test_on_web_browser -->
@@ -119,41 +119,21 @@
           <div class="suite-Amazon_Test_on_web_browser-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.Amazon.AmazonHome</span>
+              <span class="class-name">com.Amazon.SignUp</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="amazonOfhomepage">
-                  </a> <!-- amazonOfhomepage -->
-                  <span class="method-name">amazonOfhomepage</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 20.25 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Computer&apos;, ip: &apos;10.255.29.196&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f9169b1d-157d-4ea9-b846-aa8b43d40cf5
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at BaseApi.Base.clickBytext(Base.java:137)
-	at com.Amazon.AmazonHome.amazonOfhomepage(AmazonHome.java:25)
-Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Computer&apos;, ip: &apos;10.255.29.196&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_40&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)
-	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
-	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9585)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/HP/AppData/Local/Temp/anonymous2563213700790472364webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
-... Removed 31 stack frames
+                  <a name="signIn">
+                  </a> <!-- signIn -->
+                  <span class="method-name">signIn</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: Amazon\data\file1.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at utility.DataReader.fileReader(DataReader.java:22)
+	at com.Amazon.SignUp.signIn(SignUp.java:19)
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -178,7 +158,7 @@ Driver info: driver.version: unknown
   &lt;parameter name=&quot;username&quot; value=&quot;rajib0078&quot;/&gt;
   &lt;test name=&quot;Amazon Home Page&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Amazon.AmazonHome&quot;/&gt;
+      &lt;class name=&quot;com.Amazon.SignUp&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Amazon Home Page --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Test on web browser --&gt;
@@ -220,14 +200,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'amazonOfhomepage')
-data.setCell(0, 2, 'com.Amazon.AmazonHome')
-data.setCell(0, 3, 130564);
+data.setCell(0, 1, 'signIn')
+data.setCell(0, 2, 'com.Amazon.SignUp')
+data.setCell(0, 3, 7);
 window.suiteTableData['Amazon_Test_on_web_browser']= { tableData: data, tableDiv: 'times-div-Amazon_Test_on_web_browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 7 ms</span>
               <div id="times-div-Amazon_Test_on_web_browser">
               </div> <!-- times-div-Amazon_Test_on_web_browser -->
             </div> <!-- times-div -->
@@ -253,7 +233,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Amazon.AmazonHome</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Amazon.SignUp</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, rajib0078, e7d64913-3a8f-4ef4-8f2c-d4a694179e16, windows, firefox, 37, http://www.amazon.com)</span>
                 <span class="method-start">0 ms</span>
@@ -261,12 +241,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">amazonOfhomepage</span>
-                <span class="method-start">47705 ms</span>
+                <span class="method-name">signIn</span>
+                <span class="method-start">15440 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">178314 ms</span>
+                <span class="method-start">15465 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
