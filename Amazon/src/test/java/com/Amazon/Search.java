@@ -14,10 +14,11 @@ public class Search extends AmazonBase{
     @Test
 
     public void searchIteams() throws InterruptedException {
-        setItems(AmazonBase.list);
-        getItems();
-        List<String> listMenu=searchDropdownBox("#searchDropdownBox option");
-        Assert.assertEquals(listMenu,AmazonBase.menu);
+//        setItems(AmazonBase.list);
+//        getItems();
+
+        List<String> listMenu=getListofTextBycss("#searchDropdownBox option");
+//        Assert.assertEquals(listMenu,AmazonBase.menu);
         displayText(listMenu);
 
         for(String item:listMenu){
