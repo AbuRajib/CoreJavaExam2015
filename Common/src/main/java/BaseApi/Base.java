@@ -25,6 +25,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class Base {
+    //Running useSaucelab when it is true.
 
     public WebDriver driver=null;
     @Parameters ({"useSauceLabs","username","Key","os","browsername","browserVersion","url"})
@@ -40,7 +41,7 @@ public class Base {
 
     }
 
-
+        //Running local when useSaucelab  is false
 
     public void setupCloudEnvironment(String userName,String Key,String os,String browsername,
                                     String browserVersion,String url) throws IOException{
@@ -84,7 +85,7 @@ public class Base {
 
         driver.quit();
     }
-
+    //utility Methods
     public void clickBycss(String locator){
         driver.findElement(By.cssSelector(locator)).click();
     }
@@ -107,12 +108,8 @@ public class Base {
         driver.findElement(By.cssSelector(locator)).sendKeys(value,Keys.ENTER);
     }
 
-    public List<WebElement> getWebElements(String locator){
-        List<WebElement> elements=driver.findElements(By.cssSelector("#nav-subnav .nav-a"));
-        return elements;
-    }
 
-    // Display the WebElements(list)
+    // search WebElements(list) from the website
     public List<String> getListofTextBycss(String locator){
         List<WebElement> element=driver.findElements(By.cssSelector(locator));
         List<String> text=new ArrayList<String>();
@@ -123,11 +120,7 @@ public class Base {
         return text;
     }
 
-    public String getTextBycss(String locator){
-        String text=driver.findElement(By.cssSelector(locator)).getText();
-        return text;
-    }
-
+    //Display Webelements to testng framework
     public void displayText(List<String> text){
         for(String st:text){
             System.out.println(st);
@@ -135,12 +128,28 @@ public class Base {
 
     }
 
+
+
+    //search webelemts list from browser
+    public List<WebElement> getWebElements(String locator){
+        List<WebElement> elements=driver.findElements(By.cssSelector("#nav-subnav .nav-a"));
+        return elements;
+    }
+
+    // click webelements one by one
     public void clickBytext(String locator){
         driver.findElement(By.linkText(locator)).click();
     }
 
+    // sleep method
     public void sleepFor(int sec)throws InterruptedException{
         Thread.sleep(sec*1000);
+    }
+
+    // random-App call to customrs or city from w3Schools.com
+    public String getTextBycss(String locator){
+        String text=driver.findElement(By.cssSelector(locator)).getText();
+        return text;
     }
 
     public void selectElementByVisibleText(String locator,String value){

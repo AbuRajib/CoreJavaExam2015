@@ -19,15 +19,12 @@ public class AmazonHome extends AmazonBase{
         System.out.println(driver.getCurrentUrl());
         typeAndEnterBycss("#twotabsearchtextbox", "book");
         sleepFor(4);
-        //List<String> list=getTextBycss("#nav-subnav .nav-a");
           List<String> list=getListofTextBycss("#nav-subnav .nav-a");
         displayText(list);
         for(int i=0;i<list.size();i++){
-            clickBytext(list.get(i));
+            clickBytext(list.get(i));    //click webElements on by one
         }
 
-
-//        clickByxpath(".//*[@id='nav-subnav']/a[2]");
         sleepFor(2);
     }
 
